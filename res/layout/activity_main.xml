@@ -1,0 +1,24 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Button" />
+
+    <com.android.volley.toolbox.NetworkImageView
+        android:id="@+id/networkImageView"
+        android:layout_width="120dip"
+        android:layout_height="120dip"
+        android:layout_marginTop="30dip" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="120dip"
+        android:layout_height="120dip"/>
+
+</LinearLayout>
